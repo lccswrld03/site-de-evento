@@ -1,0 +1,182 @@
+:root {
+    /* --fonte-banner: "Cinzel", serif;
+    --fonte-titulo: "Oswald", sans-serif;
+    --fonte-sub-titulo: "Alumni Sans", sans-serif;
+    --fonte-paragrafo-descritivo: "Cinzel", serif;
+    --fonte-paragrafo: "Cinzel", serif;
+    --fonte-cabecalho: "Rajdhani", sans-serif; */
+
+      --fonte-titulo: "Squada One", sans-serif;
+    --fonte-cards-titulo: "DotGothic16", sans-serif;
+    --fonte-texto: "Oxanium", sans-serif;
+    --fonte-detalhe: "Orbitron", sans-serif;
+
+    --fonte-expessura-titulo: 400;
+    --fonte-expessura-texto: 300;
+    --fonte-expessura-detalhe: 400;
+
+    --fonte-estilo-titulo: normal;
+    --fonte-estilo-texto: normal;
+    --fonte-estilo-detalhe: uppercase;
+
+    --espacamento-sm: 16px;
+    --espacamento-m: 32px;
+    --espacamento-bg: 48px;
+
+    --cor-de-fundo: #04030d;
+    --cor-cards: rgb(8, 42, 8);
+    --cor-da-borda: rgb(68, 64, 64);
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+}
+
+img {
+    display: block; 
+    margin: 0 auto;
+}
+
+.logo-principal {
+    margin-bottom: var(--espacamento-m);
+    box-shadow: none;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-cards);
+    height: 80px;
+    border-radius:8px;
+    font-family: var(--fonte-detalhe);
+    font-weight: var(--fonte-expessura-detalhe);
+    font-style: var(--fonte-estilo-detalhe);
+}
+
+nav b {
+    color: white;
+}
+
+b {
+    color: goldenrod; 
+    margin: 0 5px;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+small {
+    color: white;
+    font-family: var(--fonte-detalhe);
+    font-weight: var(--fonte-expessura-detalhe);
+    font-style: var(--fonte-estilo-detalhe);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0 auto; 
+    color: whitesmoke; 
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 0;
+    font-family: var(--fonte-titulo);
+    height: 60px;
+    font-size: 200%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: var(--espacamento-m);
+    background-color: var(--cor-cards);
+}
+
+p {
+    font-family: var(--fonte-texto);
+     font-weight: var(--fonte-expessura-texto);
+    font-style: var(--fonte-estilo-texto);
+    color: whitesmoke;
+}
+
+label {
+    font-family: var(--fonte-texto);
+}
+
+#interacao p {
+    margin-bottom: var(--espacamento-sm);
+}
+
+form {
+    margin-top: var(--espacamento-m);
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#formulario {
+    margin-top: var(--espacamento-m);
+}
+#formulario h1 {
+    background-color: var(--cor-de-fundo);
+}
+
+#formulario .inscricao {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: var(--espacamento-bg);
+}
+
+#formulario-entrada {
+    margin-top: var(--espacamento-m);
+    margin-bottom: var(--espacamento-m);
+}
+
+#formulario-entrada img {
+    border-radius: 10px;
+    margin-bottom: var(--espacamento-m);
+}
+
+
+#interacao {
+    margin-top: var(--espacamento-bg);
+    margin-bottom: var(--espacamento-bg);
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    
+}
+
+footer {
+    background-color: var(--cor-cards);
+    height: 100px;
+    border-radius:8px;
+    box-shadow: 0 0 16px var(--cor-da-borda);
+    font-family: var(--fonte-detalhe);
+    font-weight: var(--fonte-expessura-detalhe);
+    font-style: var(--fonte-estilo-detalhe);
+}
+
+footer img {
+    box-shadow: none;
+}
