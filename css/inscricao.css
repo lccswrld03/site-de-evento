@@ -104,15 +104,12 @@ h1 {
     background-color: var(--cor-cards);
 }
 
-p {
+
+p, label {
     font-family: var(--fonte-texto);
-     font-weight: var(--fonte-expessura-texto);
+    font-weight: var(--fonte-expessura-texto);
     font-style: var(--fonte-estilo-texto);
     color: whitesmoke;
-}
-
-label {
-    font-family: var(--fonte-texto);
 }
 
 #interacao p {
