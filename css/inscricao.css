@@ -123,6 +123,10 @@ form {
     margin-top: var(--espacamento-m);
 }
 
+input {
+    border-radius: 6px;
+}
+
 .formulario {
     display: flex;
     justify-content: center;
