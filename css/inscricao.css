@@ -6,7 +6,8 @@
     --fonte-paragrafo: "Cinzel", serif;
     --fonte-cabecalho: "Rajdhani", sans-serif; */
 
-      --fonte-titulo: "Squada One", sans-serif;
+    --fonte-titulo: "Idiqlat", serif;
+    --fonte-titulo-secundario: "Squada One", sans-serif;
     --fonte-cards-titulo: "DotGothic16", sans-serif;
     --fonte-texto: "Oxanium", sans-serif;
     --fonte-detalhe: "Orbitron", sans-serif;
@@ -86,6 +87,10 @@ small {
     font-style: var(--fonte-estilo-detalhe);
 }
 
+.titulo-form h1 {
+    font-family: var(--fonte-titulo-secundario);
+}
+
 h1 {
     display: flex;
     justify-content: center;
@@ -95,7 +100,7 @@ h1 {
     color: whitesmoke; 
     text-shadow: 2px 2px 2px black;
     margin-bottom: 0;
-    font-family: var(--fonte-titulo);
+    font-family: ;
     height: 60px;
     font-size: 200%;
     text-align: center;
